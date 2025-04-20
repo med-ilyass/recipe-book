@@ -25,8 +25,8 @@ export default function RecipeDetails() {
     }
   
     const favoriteData = {
-        mealId: recipe.idMeal.toString(),   // ✅ mealId (not idMeal!)
-        name: recipe.strMeal,               // ✅ name (not strMeal!)
+        mealId: recipe.idMeal.toString(),  
+        name: recipe.strMeal,               
         imageUrl: recipe.strMealThumb,
         strArea: recipe.strArea
       }
